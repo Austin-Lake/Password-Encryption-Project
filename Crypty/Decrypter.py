@@ -1,7 +1,9 @@
 from cryptography.fernet import Fernet
+import getpass
 
+username = getpass.getuser()
 
-encrypted_file = 'C:/Users/Austi/OneDrive/Desktop/Stuff/Private_Encrypted.txt'
+encrypted_file = 'C:/Users/{username}/OneDrive/Desktop/Stuff/Private_Encrypted.txt'
 
 sensitive = {}
 
