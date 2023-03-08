@@ -3,7 +3,7 @@ import getpass
 
 username = getpass.getuser()
 
-encrypted_file = 'C:/Users/{username}/OneDrive/Desktop/Stuff/Private_Encrypted.txt'
+encrypted_file = f'C:/Users/{username}/OneDrive/Desktop/Stuff/Private_Encrypted.txt'
 
 sensitive = {}
 
